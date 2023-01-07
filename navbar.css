@@ -1,0 +1,105 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+ html{
+    font-size: 14px;
+ }
+ body{
+    background-color: #181d35;
+    width: 100vw;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.88rem;
+ }
+ .container{
+    width: 80%;
+    margin: 0 auto;
+ }
+ .header{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20%;
+ }
+ .navbaroptions ul{
+    display: flex;
+ }
+ .navbaroptions ul li{
+    padding: 0rem 2rem;
+    font-size: 1rem;
+    color: #E6DDC4;
+ }
+.start{
+    background-color: #678983;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    width: 8rem;
+
+ }
+ .searchtab{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem auto 0 auto;
+    /* width: 90%; */
+    width: 100%;
+    height: 2.8rem;
+    border: 1px rgb(62, 62, 151) solid;
+    /* opacity: 0.2; */
+    border-radius: 0.5rem;
+    /* align-items: center; */
+
+ }
+ .material-icons-outlined{
+    color: #E6DDC4;
+ }
+
+.itemlist{
+    margin-left: 2rem;
+    /* align-items: center; */
+
+}
+.itemlist ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    /* margin-top: rem; */
+    align-items: center;
+    /* width: 50%; */
+}
+
+ .itemlist ul li{
+    color: #E6DDC4;
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 1rem; */
+    align-items: center;
+    /* margin-top: rem; */
+    padding-top: 0.6rem;
+ }
+ .searchbar{
+    /* background: #D6DCF5; */
+    border-radius: 0.5rem;
+    /* width: 200%; */
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(62, 62, 151);
+    width: 20rem;
+}
+.searchbar input[type="text"]{
+    background: transparent;
+    color: var(--color-dark-variant);
+    padding-left: 1rem;
+    
+    caret-color: white;
+}
