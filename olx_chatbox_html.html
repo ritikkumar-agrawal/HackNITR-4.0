@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="olx_chatbox.css">
+        <link rel="stylesheet" href="navbar.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title> chat box </title>
 </head>
@@ -13,126 +15,61 @@
 <body>
 
     <!--==================== *  Navbar * =============================  -->
-    <div class="hedder">
-        <div class="navbar">
+  <div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="logo.svg" alt="">
+        </div>
+        <div class="navbaroptions">
+            <ul>
+                <li>About</li>
+                <li>Items</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="start">
+            Get Started
+        </div>
 
-            <img src="images/olx_logo.png">
+    </div>
+    <div class="searchtab">
+        <div class="itemlist">
+            <ul>
+                <li>
+                    <h3>Books</h3> 
+                    <span class="material-icons-outlined">
+                        arrow_drop_down
+                    </span>
+                </li>
+                <li>
+                    <h3>Electronics</h3> 
+                    
+                    <span class="material-icons-outlined">
+                        arrow_drop_down
+                    </span>
+                </li>
+                <li>
+                    <h3>Home appliances</h3> 
+                    
+                    <span class="material-icons-outlined">
+                        arrow_drop_down
+                    </span>
+                </li>
+                <li>
+                    <h3>Cycles</h3> 
+                    
+                    <span class="material-icons-outlined">
+                        arrow_drop_down
+                    </span>
+                </li>
 
-
-
-
-            <div class="contry_select" id="contry">
-                <div class="select">
-                    <p id="text"> Select Your Country </p>
-                    <i class="fa-solid fa-chevron-down" id="moving"></i>
-                </div>
-
-                <ul class="option_box" id="list">
-                    <li class="option" onclick="Myfunction('USA')">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>USA</p>
-                    </li>
-                    <li class="option" onclick="Myfunction('Canada')">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>Canada</p>
-                    </li>
-                    <li class="option" onclick="Myfunction('India')">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>India</p>
-                    </li>
-                    <li class="option" onclick="Myfunction('Pakistan')">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>Pakistan</p>
-                    </li>
-                    <li class="option" onclick="Myfunction('Nre York')">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>New York</p>
-                    </li>
-                </ul>
-
-            </div>
-
-
-
-
-            <div class="search_box">
-                <input type="text" class="serchclass" id="serchid" placeholder="Find Cars, Mobile Phone and More......">
-                <p> <i class="fa-solid fa-magnifying-glass"></i></p>
-            </div>
-
-
-
-
-            <div class="language">
-                <p id="eng_tag">English</p>
-                <ul class="hin_eng">
-                    <li onclick="languageolx('English')"> English </li>
-                    <li onclick="languageolx('हिन्दी')"> हिन्दी </li>
-                </ul>
-            </div>
-
-
-            <div class="messeage">
-                <i class="fa-regular fa-comment"></i>
-            </div>
-
-
-
-
-            <div class="messeage">
-                <i class="fa-regular fa-bell"></i>
-            </div>
-
-
-
-            <div class="your_logo">
-                <div class="girl_img" id="girl_img_id">
-                    <img src="images/pic3.jpg">
-                </div>
-
-                <div class="dropdown" id="dropdownid">
-                    <div class="nameandimg">
-                        <img src="images/pic3.jpg">
-                        <p>Puja Varma</p>
-                    </div>
-                    <hr>
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-user-large"></i>
-                            <p>My Account </p>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-box"></i>
-                            <p> My Orders </p>
-                        </li>
-                        <hr>
-                        <li>
-                            <i class="fa-solid fa-circle-question"></i>
-                            <p> Help </p>
-                        <li>
-                            <i class="fa-solid fa-gear"></i>
-                            <p> Setting </p>
-                        </li>
-                        <hr>
-                        <li>
-                            <i class="fa-solid fa-right-from-bracket"></i>
-                            <p> Log Out </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-
-            <div class="selling_page">
-                <button> <i class="fa-solid fa-plus"></i> SELL</button>
-            </div>
-
-
+            </ul>
+        </div>
+        <div class="searchbar">
+            <input type="text" value="" placeholder="Search for items">
         </div>
     </div>
-
+</div>
 
 
     <!--==================== *  chat box* =============================  -->
