@@ -39,6 +39,9 @@
     font-size: 1.3rem;
     color: #E6DDC4;
  }
+ a{
+   color: #E6DDC4;
+ }
 .start{
    background-color: #678983;
     border: none;
@@ -124,7 +127,7 @@ body{
 width: 445x;
 background-image: radial-gradient(circle, #a5d3f640, #a5d3f64f, #a5d3f61d, #181D35, #181D35);
 height: 450px;
-padding-top: 6rem;
+padding-top: 4rem;
  }
  .content{display:flex ;
    color: white;
@@ -222,10 +225,133 @@ transform: translateY(-7px);
    display: flex;
    flex-direction: row-reverse;
    justify-content: space-between;
-   margin: 0 auto ;
+   margin: 4rem auto ;
  }
  .write{
    align-items: flex-start;
  }
 
+  /*-------------------------------login----------------------------------------------------*/
+
+ *{
+   margin:0;
+   padding: 0;
+  }
+   .hero{
+       height:100%;
+       width:100%;
+       border-radius: 20px;      
+       position:absolute;
+
+   }
+   .login-form{
+       width:380px;
+       height:480px;
+       position:absolute;
+       border-radius: 20px;
+       background:#fff;
+       padding: 5px;
+       /* overflow: hidden; */
+
+
+   }
+   .button-box{
+       width:220px;
+       margin:35px auto;
+       position:relative;
+       box-shadow:0 0 20px 9px #ff61241f;
+       border-radius:30px;
+
+   }
+   .toggle-btn{
+       padding:10px 30px;
+       cursor:pointer;
+       background:transparent;
+       border:0;
+       outline:none;
+       position:relative;
+   }
+   #btn{
+       top:0;
+       left:0;
+       position:absolute;
+       width:100px;
+       height:100%;
+       background:linear-gradient(to right, #ff105f,#ffad06);
+       border-radius: 30px;
+       transition:0.5s;
+       
+   }
+   .social-icons{
+       margin:30px auto;
+       text-align:center;
+
+   }
+   .social-icons img{
+       width:30px;
+       margin:0 12px;
+       box-shadow:0 0 20px 0 #7f7f7f3d;
+       cursor:pointer;
+       border-radius:50%;
+   }
+   .input-group{
+       top:180px;
+       position:absolute;
+       width:280px;
+       transition:0.5s;
+   }
+   .input-field{
+       width:100%;
+       padding:10px 0;
+       margin:5px 0;
+       border-left:0;
+       border-top:0;
+       border-right:0;
+       border-bottom:1px solid #999;
+       outline:none;
+       background:transparent;
+      
+   }
+   .submit-btn{
+       width:85%;
+       padding:10px 30px;
+       cursor:pointer;
+       display:block;
+       margin:auto;
+       background:linear-gradient(to right, #ff105f,#ffad06);
+       border:0;
+       outline:none;
+       border-radius:30px;
+
+   }
+   .check-box{
+       margin:30px 10px 30px 0;
+
+   }
+   span{
+       color:#777;
+       font-size:12px;
+       bottom:68px;
+       position:absolute;
+   }
+   #login{
+       left:50px;
+   }
+   #register{
+       left:450px;
+   }
+   h1{
+       text-align:center;
+       font-size: 1.5rem;
+       padding-top: 0.5rem;
+       padding-bottom: 0.5rem;
+   }
+   .image{
+       display: flex;
+       justify-content: flex-end;   
+   }
+   .hero{
+       width: 90%;
+       display: flex;
+   }
  
