@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Product page </title>
+    <link rel="stylesheet" href="product_olx.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    *<style>
+        .swiper-slide img{
+                height: 30rem;
+                width:10rem;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+
+                
+        }
+        
+        .descriptiopn {
+    padding-left: 20px;
+    border: 1px solid rgb(179,178,178);
+    border-radius: 5px;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-top: 35px;
+}
+
+    </style>
+</head>
+
+<body>
+
+
+    <!-- =============================== * navbar * ============================================ -->
+
+    <div class="hedder">
+        <div class="navbar">
+
+
+
+
+            <img src="images/olx_logo.png">
+
+
+
+
+
+
+            <div class="contry_select" id="contry">
+                <div class="select">
+                    <p id="text"> Select Your Contry </p>
+                    <i class="fa-solid fa-chevron-down" id="moving"></i>
+                </div>
+
+
+                <ul class="option_box" id="list">
+                    <li class="option" onclick="myfunction('USA')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>USA</p>
+                    </li>
+                    <li class="option" onclick="myfunction('Canada')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Canada</p>
+                    </li>
+                    <li class="option" onclick="myfunction('India')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>India</p>
+                    </li>
+                    <li class="option" onclick="myfunction('Pakistan')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Pakistan</p>
+                    </li>
+                    <li class="option" onclick="myfunction('New York')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>New York</p>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+
+            <div class="search_box">
+                <input type="text" class="searchclass" id="searchid" placeholder="Find Cars, mobile phone and More....">
+                <p> <i class="fa-solid fa-magnifying-glass"></i> </p>
+            </div>
+
+
+
+
+            <div class="language">
+                <p id="eng_tag"> English </p>
+
+                <ul class="hin_eng">
+                    <li onclick="languageolx('English')"> English </li>
+                    <li onclick="languageolx('हिन्दी')">हिन्दी</li>
+                </ul>
+
+            </div>
+
+
+
+
+            <div class="messeage">
+                <i class="fa-regular fa-comment"></i>
+            </div>
+
+
+
+
+            <div class="messeage">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+
+
+
+
+
+            <div class="your_logo">
+                <div class="girl_img" id="girl_img_id">
+                    <img src="images/pic3.jpg">
+                </div>
+
+                <div class="dropdwon" id="gropdwonid">
+                    <div class="nameandimg">
+                        <img src="images/pic3.jpg">
+                        <p> Puja Varma </p>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <i class="fa-regular fa-user"></i>
+                            <p>My Account</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-box"></i>
+                            <p>My Orders</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <i class="fa-regular fa-circle-question"></i>
+                            <p>Help</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-gear"></i>
+                            <p>Setting</p>
+                        </li>
+                        <hr>
+
+                        <li>
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                            <p>Log Out</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="selling_page">
+                <button> <i class="fa-solid fa-plus"></i>
+                    <p>SELL</p>
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    
+
+
+
+    <!-- =============================== * product img * ============================================ -->
+
+
+
+    <div class="product_img">
+
+
+        <div class="image_discription">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"> <img src="cycle2.jpg"  > </div>
+                   
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+
+                <div class="swiper-button-prev" id="prev"></div>
+                <div class="swiper-button-next" id="next"></div>
+            </div>
+
+            <div class="descriptiopn">
+                <h3> Description </h3>
+                <p>Get your hands on a super fast and well functioning cycle to get to your classes fast and on time.<br>
+                    Condition 1 years old. <br>
+                    MRP ₹2,500</p>
+            </div>
+        </div>
+
+        <div class="product_details">
+            <div class="box">
+                <div class="price">
+                    <h3> ₹2,500</h3>
+                    <div>
+                        <p><i class="fa-solid fa-share-nodes"></i> </p>
+                        <p> <i class="fa-regular fa-heart"></i> </p>
+                    </div>
+                </div>
+                <span> Hercules Cycle</span>
+                <div class="location">
+                    <p>NIT Rourkela</p>
+                    <p>Today</p>
+                </div>
+            </div>
+
+            <div class="box" id="box2">
+                <p class="Seller_description"> Seller Description </p>
+                <div class="seller_detail">
+                    <img src="images/pic2.jpg">
+                    <div>
+                        <h2> AskDiggy </h2>
+                        <p>Member since Nov 2021</p>
+                    </div>
+                </div>
+                <a href="olx_chatbox.html"> Chat with Seller  </a>
+
+            </div>
+
+         
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    
+</body>
+
+</html>
