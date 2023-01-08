@@ -98,6 +98,9 @@ body{
    /* margin-top: rem; */
    padding-top: 0.6rem;
 }
+.itemlist ul li h3 a{
+    color: #E6DDC4;
+}
 .searchbar{
    /* background: #D6DCF5; */
    border-radius: 0.7rem;
