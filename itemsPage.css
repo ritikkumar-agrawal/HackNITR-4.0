@@ -349,3 +349,9 @@ body{
     margin: 8px 0 8px 0;
     cursor: pointer;
 }
+.Main_footer p{
+    color: white;
+}
+.Main_footer h2{
+    color: white;
+}
