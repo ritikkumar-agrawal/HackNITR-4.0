@@ -49,6 +49,11 @@ body{
    font-size: 1.3rem;
    color: #E6DDC4;
 }
+.navbaroptions ul li a{
+   padding: 0rem 2rem;
+   font-size: 1.3rem;
+   color: #E6DDC4;
+}
 
 .searchtab{
    display: flex;
