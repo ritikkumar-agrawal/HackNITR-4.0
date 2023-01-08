@@ -1,3 +1,5 @@
+ 
+
 *{
     margin: 0%;
     padding: 0%;
@@ -107,7 +109,11 @@ body{
     border-radius: 6px 0 0 6px;
 }
 
-
+.navbaroptions ul li a{
+    padding: 0rem 2rem;
+    font-size: 1rem;
+    color: #E6DDC4;
+ }
 
 
 #eng_tag{
@@ -415,4 +421,3 @@ body{
     padding: 0 15px;
     padding-bottom: 10px;
 }
-
